@@ -8,30 +8,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="/images/Angelo Furtado.png" sizes="16x16"/>
-		    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfilePage",
-      "dateCreated": "2024-5-13T12:34:00-05:00",
-      "dateModified": "2024-5-14T14:53:00-05:00",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Ângelo Furtado",
-        "interactionStatistic": [{
-          "@type": "InteractionCounter",
-          "interactionType": "https://schema.org/FollowAction",
-          "userInteractionCount": 650
-        },{
-          "@type": "InteractionCounter",
-          "interactionType": "https://schema.org/LikeAction",
-          "userInteractionCount": 800
-        }],
-        "description": "Mestrado em Finanças, Universidade de Chicago",
-      }
-    }
-    </script>
+		    
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" itemtype="https://schema.org/ProfilePage" itemscope>
+    <div itemprop="mainEntity" itemtype="https://schema.org/Person" itemscope>
+      <div><span itemprop="name" id="real-name">Ângelo Furtado</span></div>
+      <div itemprop="description">Mestrado em Finanças, Universidade de Chicago</div>
+      <div><span itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+              <span itemprop="userInteractionCount">456</span>
+              <span itemprop="interactionType" content="https://schema.org/LikeAction">likes</span>
+           </span>,
+           <span itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+              <span itemprop="userInteractionCount">500</span>
+              <span itemprop="interactionType" content="https://schema.org/FollowAction">follower</span>
+           </span>, and
+           <span itemprop="agentInteractionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+              <span itemprop="userInteractionCount">800</span>
+              <span itemprop="interactionType" content="https://schema.org/WriteAction">posts</span>
+           </span>
+       </div>
+    </div>
 
 		<!-- Header -->
 			<section id="header">
