@@ -1780,9 +1780,9 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	header.major h2 {
+	header.major h1,h2 {
 		color: #6ca8e0;
-		font-size: 3.5em;
+		font-size: 2.0em;
 	}
 
 		header.major h2 + p {
